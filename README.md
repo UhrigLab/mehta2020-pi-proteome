@@ -16,6 +16,13 @@ python pepseqfinder.py [Peptide List File] [List of Modifications] [Proteome Fas
 
 *pi_nophos_alignedpep.txt & phi_nophos_alignedpep.txt*: Output files from `pepseqfinder.py`
 
+**Command Used:**
+
+````
+python3 pepseqfinder.py Phos_NoPhos.txt SearchedModifications.txt Athaliana_447_Araport11.protein.fa 6 pi_nophos_pep13.txt
+````
+
+
 ## Motif Analysis Files
 Files used as input for Motif enrichment analysis using a standalone installation of [Momo (MEME Suite 5.1.1)](http://meme-suite.org/index.html). 
 
@@ -28,3 +35,6 @@ momo motifx --width 13 --protein-database /Users/devangmehta/Dropbox/POST_DOC/SC
 ````
 
 
+## R Plotting Scripts
+
+Scripts used to produce various graphs used in the manuscript. Data files used are provided. To reproduce, edit input file locations in the R scripts. 
