@@ -1,5 +1,5 @@
 # Phosphoproteomics and proteomics of Arabdidopsis cells re-fed phosphate and phosphite.
-Scripts and datasets used in Mehta et al., (2020) Phosphate and phosphite differentially impact the proteome and phosphoproteome of phosphate-deprived Arabidopsis suspension cell cultures
+Scripts and datasets used in Mehta D, Ghahremani M, Pérez-Fernández M, Tan M, Schläpfer P, Plaxton WC and Uhrig RG. (2020) Phosphate and phosphite differentially impact the proteome and phosphoproteome of Arabidopsis suspension cell cultures
 
 ## pepseqfinder
 `pepseqfinder.py` is a script that takes a list of phosphopeptides generated from Perseus and MaxQuant as input, maps them against a proteome file and outputs a list of peptide sequences of a defined length centered at the phosphorylated site.
