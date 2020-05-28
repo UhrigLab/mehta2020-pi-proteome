@@ -19,7 +19,7 @@ Mehta D, Ghahremani M, Pérez-Fernández M, Tan M, Schläpfer P, Plaxton WC and 
 python PSMFinder.py [Peptide List File] [List of Modifications] [Proteome Fasta file] [Number of flanking AAs] [Output File Name]
 ````
 
-*Example Inputs:*
+**Example Inputs:**
 
 Peptide List Files:`Pi_NoPi_phosphopep.txt` & `Phi_NoPi_phosphopep.txt`
 
@@ -28,7 +28,7 @@ List of Modifications: `SearchedModifications.txt`
 Proteome Fasta file: Download `Athaliana_447_Araport11.protein.fa` from [here](https://genome.jgi.doe.gov/portal/pages/dynamicOrganismDownload.jsf?organism=Athaliana#)
 
 
-*Example Outputs:*
+**Example Outputs:**
 
 Mapped and aligned phosphopeptides:`Pi_NoPi_motif.txt` & `Phi_NoPhi_motif.txt`
 
@@ -38,7 +38,7 @@ MoMo output: `pi_momo_out/` & `phi_momo_out`
 *pi_nophos_alignedpep.txt & phi_nophos_alignedpep.txt*: Output files from `pepseqfinder.py`
 
 
-*Example Command:*
+**Example Command:**
 
 ````
 python3 pepseqfinder.py Pi_NoPi.txt SearchedModifications.txt Athaliana_447_Araport11.protein.fa 6 pi_nopi_motif.txt
