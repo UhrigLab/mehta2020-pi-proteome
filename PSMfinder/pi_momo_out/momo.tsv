@@ -1,0 +1,10 @@
+mod	motif	regexp	score	fg_match	fg_size	bg_match	bg_size	fg/bg	unadjusted_p-value	tests	adjusted_p-value
+S	xxSxxx_S_Pxxxxx	..S...SP.....	72.12	82	1261	10	1261	8.2	5.8e-016	234	1.3e-013
+S	xxxxxx_S_Pxxxxx	......SP.....	26.51	255	1261	84	1261	3.0	2.2e-024	211	4.7e-022
+S	xxxxxx_S_xxExxx	......S..E...	14.24	167	1261	100	1261	1.7	8.9e-006	212	1.9e-003
+S	xxxRSx_S_xxxxxx	...RS.S......	20.63	62	1261	10	1261	6.2	7.8e-011	189	1.5e-008
+S	xxxxxG_S_xxxxxx	.....GS......	7.38	134	1261	85	1261	1.6	3.3e-004	178	5.7e-002
+
+# MoMo (Modification Motifs): Version 5.1.1 compiled on May 27 2020 at 11:47:10
+# The format of this file is described at http://meme-suite.org//doc/momo-output-format.html.
+# momo motifx --width 13 --protein-database /mnt/469ECE409ECE27EF/RESOURCES/Athaliana_447_Araport11.protein.fa --remove-unknowns F Pi_NoPi_motif.txt.momo.txt
