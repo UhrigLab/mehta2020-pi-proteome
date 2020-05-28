@@ -5,7 +5,7 @@ Scripts and datasets used in Mehta D, Ghahremani M, Pérez-Fernández M, Tan M, 
 
 `PSMFinder.py` is a script that takes a list of phosphopeptides generated from Perseus and MaxQuant as input, maps them against a proteome file and outputs a list of peptide sequences of a defined length centered at the phosphorylated site. It then reformats this output for motif enrichment analysis using the MoMo toot from [Meme suite](http://meme-suite.org/tools/momo).
 
-For details on usage, refer to the Readme file in `/PSMFinder`.
+For details on usage, refer to the Readme file in [`/PSMFinder`](https://github.com/UhrigLab/mehta2020-pi-proteome/tree/master/PSMfinder).
 
 ## R Plotting Scripts
 
