@@ -1,4 +1,6 @@
 # PSMFinder
+![APM](https://img.shields.io/badge/license-MIT-brightgreen)
+
 `PSMFinder.py` is a script that takes a list of phosphopeptides generated from Perseus and MaxQuant as input, maps them against a proteome file and outputs a list of peptide sequences of a defined length centered at the phosphorylated site. Next, these files are reformatted and taken for motif enrichment using the MoMo tool from [Meme Suite](http://meme-suite.org/doc/download.html).
 
 **Please Cite:**
