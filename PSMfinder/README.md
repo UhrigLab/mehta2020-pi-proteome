@@ -41,11 +41,11 @@ MoMo output: `pi_momo_out/` & `phi_momo_out`
 **Example Command:**
 
 ````
-python3 pepseqfinder.py Pi_NoPi.txt SearchedModifications.txt Athaliana_447_Araport11.protein.fa 6 pi_nopi_motif.txt
+python3 PSMFinder.py Pi_NoPi.txt SearchedModifications.txt Athaliana_447_Araport11.protein.fa 6 pi_nopi_motif.txt
 ````
 
 *MoMo command implemented in PSMFinder:*
 
 ````
-momo motifx --width 13 --protein-database /Users/devangmehta/Dropbox/POST_DOC/SCRIPTS/Athaliana_447_Araport11.protein.fa --remove-unknowns F pi_nophos_pep_motifin.txt
+momo motifx --width 13 --protein-database Athaliana_447_Araport11.protein.fa --remove-unknowns F Pi_NoPi_motif.momo.txt
 ````
